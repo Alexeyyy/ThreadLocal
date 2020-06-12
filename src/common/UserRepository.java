@@ -2,6 +2,9 @@ package common;
 
 import java.util.HashMap;
 
+/*
+* Класс создан для имитации получения данных о пользователе из БД.
+* */
 public class UserRepository {
     private static HashMap<Integer, User> users = new HashMap();
 
@@ -18,6 +21,10 @@ public class UserRepository {
         }
     }
 
+    /*
+    * Метод, реализующий получение информации о пользователе по id.
+    * @id - идентификатор пользователя.
+    * */
     public User getUser(int id) {
         return users.get(id);
     }

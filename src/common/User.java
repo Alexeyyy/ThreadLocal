@@ -1,5 +1,8 @@
 package common;
 
+/*
+* Класс, описывающий информацию о пользователе.
+* */
 public class User {
     private String name;
     private int age;

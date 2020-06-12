@@ -3,6 +3,9 @@ package variant_1;
 import common.User;
 import common.UserRepository;
 
+/*
+* Класс, реализующий имитацию деятельности пользователя.
+* */
 public class UserSession implements Runnable {
     private MyThreadLocal<User> thlUser = new MyThreadLocal();
     private MyThreadLocal<String> thlThreadInfo = new MyThreadLocal();
